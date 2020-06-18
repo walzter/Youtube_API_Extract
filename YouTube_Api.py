@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jun 17 18:55:25 2020
@@ -12,14 +12,15 @@ from random import randint
 import pandas as pd
 import time
 
-save_path = r'/Users/Eric/Documents/Python/Projects/YT_API/Data/'
+save_path = YOUR PATH HERE
 
 #our API Key 
-api_key = 'AIzaSyCA5aRMSUrCg08I1nWkMuBazT2sFTSlSlI'
+api_key = YOUR API KEY
 
 #initating the service 
 youtube = build('youtube','v3',developerKey=api_key)
 
+#list of channel ID's 
 chan_id = ['UC4YOFVk_s7iSqyTWyGK_cMg', 
            'UCQruJDvxfM3b4-qNVIuarSQ',
            'UC-xSFGtsLN0kiZGoPYEhzMg',
